@@ -1,7 +1,7 @@
 // Classe Controller do sistema acadêmico.
 // Padrões GRASP aplicados:
-// CONTROLLER → centraliza as ações do sistema (baixo acoplamento).
-// CREATOR → cria objetos de Matricula, pois tem acesso a Aluno, Curso e Professor.
+// CONTROLLER: centraliza as ações do sistema (baixo acoplamento).
+// CREATOR: cria objetos de Matricula, pois tem acesso a Aluno, Curso e Professor.
 
 package controller;
 
