@@ -1,3 +1,9 @@
+// Classe Aluno representa uma entidade do sistema.
+// Esta classe segue o princípio de Alta Coesão (High Cohesion),
+// pois sua responsabilidade está claramente definida:
+//armazenar e fornecer dados do aluno.
+
+
 // Declara o pacote onde a classe Aluno está localizada
 package model;
 
@@ -8,14 +14,14 @@ public class Aluno {
     private String nome;
     private String matricula;
 
-    // ===== CONSTRUTOR =====
+    // Construtor
 
     public Aluno(String nome, String matricula) {
         this.nome = nome;            // Atribui o nome recebido ao atributo nome
         this.matricula = matricula;  // Atribui a matrícula recebida ao atributo matricula
     }
 
-    // ===== MÉTODOS GETTERS =====
+    // Métodos Getters
 
     public String getNome() {
         return nome;

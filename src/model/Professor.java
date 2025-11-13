@@ -1,3 +1,9 @@
+// Classe Professor representa o docente responsável por ministrar um curso.
+// Aplica o princípio GRASP de Alta Coesão (High Cohesion), pois sua responsabilidade está claramente limitada a armazenar
+//fornecer informações sobre o professor.
+
+
+
 // Declara o pacote onde a classe Professor está localizada
 package model;
 
@@ -9,7 +15,7 @@ public class Professor {
     private String matricula;
     private String disciplina;
 
-    // ===== CONSTRUTOR =====
+    // Construtor
     
     public Professor(String nome, String matricula, String disciplina) {
         this.nome = nome;             // Atribui o nome recebido ao atributo nome
@@ -17,7 +23,7 @@ public class Professor {
         this.disciplina = disciplina; // Atribui a disciplina recebida ao atributo disciplina
     }
 
-    // ===== MÉTODOS GETTERS =====
+    // Métodos Getters
    
     public String getNome() {
         return nome;

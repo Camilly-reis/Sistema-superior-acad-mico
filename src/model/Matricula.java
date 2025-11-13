@@ -1,3 +1,11 @@
+// Classe Matricula representa o relacionamento entre um aluno, um curso e um professor.
+// Padrão GRASP aplicado: CREATOR
+// O Controller é responsável por criar objetos desta classe, pois ele possui as informações necessárias (Aluno, Curso e Professor).
+// Justificativa:
+// Isso mantém baixo acoplamento e alta coesão.
+// Evita que classes externas precisem conhecer a estrutura interna de Matricula.
+
+
 // Declara o pacote onde a classe Matricula está localizada
 package model;
 
@@ -9,7 +17,7 @@ public class Matricula {
     private Curso curso;
     private Professor professor;
 
-     // ===== CONSTRUTOR =====
+     // Construtor
 
     public Matricula(Aluno aluno, Curso curso, Professor professor) {
         this.aluno = aluno;          // Atribui o aluno recebido ao atributo aluno
